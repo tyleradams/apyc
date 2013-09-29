@@ -1,0 +1,3 @@
+#!/bin/bash
+TEAMREPOS=svn+ssh://cs164-ta@torus.cs.berkeley.edu/A
+svn copy $TEAMREPOS/trunk/proj1 $TEAMREPOS/tags/proj1-$1 -m "Submit version $1"
